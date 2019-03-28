@@ -54,27 +54,10 @@
       <change afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_2/8_Import_export/webpack.config.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_3_warsztat/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_3_warsztat/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_1/1_Funkcje_czasu/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_1/1_Funkcje_czasu/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_1/3_Obiekty/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_1/3_Obiekty/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_1/3_Obiekty/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_1/3_Obiekty/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/1_this/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/1_this/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/3_Wiecej_o_funkcjach/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/3_Wiecej_o_funkcjach/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/3_Wiecej_o_funkcjach/js/zadanie01.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/3_Wiecej_o_funkcjach/js/zadanie01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/3_Wiecej_o_funkcjach/js/zadanie03.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/3_Wiecej_o_funkcjach/js/zadanie03.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/4_DOM_Wyszukiwanie_elementow/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/4_DOM_Wyszukiwanie_elementow/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/4_DOM_Wyszukiwanie_elementow/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_2/4_DOM_Wyszukiwanie_elementow/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/1_DOM_Tworzenie_nowych_elementow/js/zadanie01.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/1_DOM_Tworzenie_nowych_elementow/js/zadanie01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/1_DOM_Tworzenie_nowych_elementow/js/zadanie05.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/1_DOM_Tworzenie_nowych_elementow/js/zadanie05.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanie01.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanie01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanie02.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanie02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanie03.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanie03.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanie04.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanie04.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanieWykladowca.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/js/zadanieWykladowca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/zadanie04.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/zadanie04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/zadanieWykladowca.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_4/2_DOM_Inputy_i_formularze/zadanieWykladowca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_5/Warsztaty/5_Tooltips/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_5/Warsztaty/5_Tooltips/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/3_Zadania_domowe/Dzien_4/js/pizza.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/3_Zadania_domowe/Dzien_4/js/pizza.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/3_Zadania_domowe/Dzien_4/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/3_Zadania_domowe/Dzien_4/pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript" beforeDir="false" afterPath="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/1_Przygotowanie_React/js/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/1_Przygotowanie_React/js/app.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/1_Przygotowanie_React/js/out.js" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/1_Przygotowanie_React/js/out.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/3_Skladnia_JSX_wyrazenia/js/out.js" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/3_Skladnia_JSX_wyrazenia/js/out.js" afterDir="false" />
@@ -147,6 +130,7 @@
       <change beforePath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/3_Zadania_domowe/Dzien_3/js/zadanie03.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/3_Zadania_domowe/Dzien_3/js/zadanie03.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/3_Zadania_domowe/Dzien_3/js/zadanie04.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/3_Zadania_domowe/Dzien_3/js/zadanie04.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/3_Zadania_domowe/Dzien_3/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/3_Zadania_domowe/Dzien_3/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS" beforeDir="false" afterPath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/1_Zadania/Dzien_1/0_Gulp/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/1_Zadania/Dzien_1/0_Gulp/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/1_Zadania/Dzien_1/1_Sass_Instalacja/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/1_Zadania/Dzien_1/1_Sass_Instalacja/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/1_Zadania/Dzien_1/2_Sass_Podstawy/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/1_Zadania/Dzien_1/2_Sass_Podstawy/scss/main.scss" afterDir="false" />
@@ -202,18 +186,22 @@
       <change beforePath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/3_Zadania_domowe/Dzien_2/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/3_Zadania_domowe/Dzien_2/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/3_Zadania_domowe/Dzien_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/3_Zadania_domowe/Dzien_3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/3_Zadania_domowe/Dzien_3/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/RWD SASS/KAT_FER_S_09_RWD_SASS/3_Zadania_domowe/Dzien_3/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS" beforeDir="false" afterPath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/1_Testowanie_animacji/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/1_Testowanie_animacji/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/2_Dostosowanie_animacji_do_obrazka/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/2_Dostosowanie_animacji_do_obrazka/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/3_Animacja_z_pseudoklasa_hover/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/3_Animacja_z_pseudoklasa_hover/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/4_Animacja_z_CSS_sprite/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/4_Animacja_z_CSS_sprite/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/5_Animacja_poruszanie_obiektu_po_ekranie/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/animacje/KAT_FER_S_09_Animacje_CSS/1_Zadania/5_Animacja_poruszanie_obiektu_po_ekranie/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4" beforeDir="false" afterPath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4/js/zadanie1.js" beforeDir="false" afterPath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4/js/zadanie1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4/js/zadanie2.js" beforeDir="false" afterPath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4/js/zadanie2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4/js/zadanie4.js" beforeDir="false" afterPath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4/js/zadanie4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4/js/zadanie5.js" beforeDir="false" afterPath="$PROJECT_DIR$/egz4/KAT_FER_S_09_REACT_Egzamin_4/js/zadanie5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/egzamin5/KAT_FER_S_09_REACT_Egzamin_5" beforeDir="false" afterPath="$PROJECT_DIR$/egzamin5/KAT_FER_S_09_REACT_Egzamin_5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/egzamin5/KAT_FER_S_09_REACT_Egzamin_5/js/out.js" beforeDir="false" afterPath="$PROJECT_DIR$/egzamin5/KAT_FER_S_09_REACT_Egzamin_5/js/out.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/egzamin5/KAT_FER_S_09_REACT_Egzamin_5/js/zadanie04.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/egzamin5/KAT_FER_S_09_REACT_Egzamin_5/js/zadanie04.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/egzamin5/KAT_FER_S_09_REACT_Egzamin_5/js/zadanie05.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/egzamin5/KAT_FER_S_09_REACT_Egzamin_5/js/zadanie05.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6" beforeDir="false" afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_1/1_Array_operations/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_1/1_Array_operations/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_1/1_Array_operations/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_1/1_Array_operations/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_1/2_let_const/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/1_Zadania/Dzien_1/2_let_const/index.html" afterDir="false" />
@@ -249,6 +237,7 @@
       <change beforePath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/3_Zadania_domowe/Dzien_1/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/3_Zadania_domowe/Dzien_1/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/3_Zadania_domowe/Dzien_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/3_Zadania_domowe/Dzien_2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/3_Zadania_domowe/Dzien_2/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/es6/KAT_FER_S_09_REACT_ES6/3_Zadania_domowe/Dzien_2/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/1_Zadania/Dzien_1/1_Wyszukiwanie_elementow/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/1_Zadania/Dzien_1/1_Wyszukiwanie_elementow/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/1_Zadania/Dzien_1/2_Eventy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/1_Zadania/Dzien_1/2_Eventy/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/1_Zadania/Dzien_1/2_Eventy/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/1_Zadania/Dzien_1/2_Eventy/js/app.js" afterDir="false" />
@@ -266,8 +255,11 @@
       <change beforePath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/3_Zadania_domowe/Dzien_1/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/3_Zadania_domowe/Dzien_1/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/3_Zadania_domowe/Dzien_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/3_Zadania_domowe/Dzien_2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/3_Zadania_domowe/Dzien_2/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/3_Zadania_domowe/Dzien_2/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/podstawy/KAT_FER_S_09_Podstawy_programowania" beforeDir="false" afterPath="$PROJECT_DIR$/podstawy/KAT_FER_S_09_Podstawy_programowania" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/podstawy/KAT_FER_S_09_Podstawy_programowania/1_Zadania/5_Funkcje/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/podstawy/KAT_FER_S_09_Podstawy_programowania/1_Zadania/5_Funkcje/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prework/KAT_FER_S_09_Prework_HTML" beforeDir="false" afterPath="$PROJECT_DIR$/prework/KAT_FER_S_09_Prework_HTML" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prework/KAT_FER_S_09_Prework_HTML/02.Formatowanie_tekstu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/prework/KAT_FER_S_09_Prework_HTML/02.Formatowanie_tekstu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zaawansowany HTML/KAT_FER_S_09_Zaawansowany_HTML_CSS" beforeDir="false" afterPath="$PROJECT_DIR$/zaawansowany HTML/KAT_FER_S_09_Zaawansowany_HTML_CSS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zaawansowany HTML/KAT_FER_S_09_Zaawansowany_HTML_CSS/1_Zadania/Dzien_2/08_Pozycjonowanie_elementow/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/zaawansowany HTML/KAT_FER_S_09_Zaawansowany_HTML_CSS/1_Zadania/Dzien_2/08_Pozycjonowanie_elementow/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zaawansowany HTML/KAT_FER_S_09_Zaawansowany_HTML_CSS/1_Zadania/Dzien_2/09_Flexbox/css/notification.css" beforeDir="false" afterPath="$PROJECT_DIR$/zaawansowany HTML/KAT_FER_S_09_Zaawansowany_HTML_CSS/1_Zadania/Dzien_2/09_Flexbox/css/notification.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zaawansowany HTML/KAT_FER_S_09_Zaawansowany_HTML_CSS/1_Zadania/Dzien_2/09_Flexbox/notification.html" beforeDir="false" afterPath="$PROJECT_DIR$/zaawansowany HTML/KAT_FER_S_09_Zaawansowany_HTML_CSS/1_Zadania/Dzien_2/09_Flexbox/notification.html" afterDir="false" />
@@ -299,8 +291,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="200" column="7" lean-forward="true" selection-start-line="12" selection-end-line="200" selection-end-column="7" />
+            <state relative-caret-position="112">
+              <caret line="175" column="23" lean-forward="true" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -421,7 +413,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -429,10 +420,38 @@
               <item name="coderslab" type="b2602c69:ProjectViewProjectNode" />
               <item name="coderslab" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="coderslab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="animacje" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coderslab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="animacje" type="462c0819:PsiDirectoryNode" />
+              <item name="KAT_FER_S_09_Animacje_CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coderslab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="egz4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coderslab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="egz4" type="462c0819:PsiDirectoryNode" />
+              <item name="KAT_FER_S_09_REACT_Egzamin_4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coderslab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,15 +510,15 @@
       <workItem from="1552315373437" duration="99707000" />
       <workItem from="1552856442746" duration="2073000" />
       <workItem from="1553191320654" duration="1337000" />
+      <workItem from="1553800058341" duration="230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162019000" />
+    <option name="totallyTimeSpent" value="162249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1297" height="694" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23354232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -522,6 +541,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript" />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project/images/cover-photo-b&amp;w.jpeg">
@@ -559,17 +583,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/puzzle/js/out.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24697" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/sitOnChair/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/puzzle/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/puzzle/js/out.js" />
+    <entry file="file://$PROJECT_DIR$/project/sitOnChair/js/app.js" />
+    <entry file="file://$PROJECT_DIR$/project/puzzle/package.json" />
     <entry file="file://$PROJECT_DIR$/JS/KAT_FER_S_09_JavaScript/1_Zadania/Dzien_3/2_DOM_Eventy/zadanie02.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -682,19 +698,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/puzzle/js/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/puzzle/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/puzzle/js/app.jsx" />
+    <entry file="file://$PROJECT_DIR$/project/puzzle/css/style.css" />
     <entry file="file://$PROJECT_DIR$/jquery/KAT_FER_S_09_REACT_jQuery/1_Zadania/Dzien_1/1_Wyszukiwanie_elementow/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-493" />
@@ -739,11 +744,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/1_Przygotowanie_React/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/1_Przygotowanie_React/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/project/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,17 +758,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/1_Przygotowanie_React/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REACT/KAT_FER_S_09_REACT_React/1_Zadania/Dzien_1/1_Przygotowanie_React/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="200" column="7" lean-forward="true" selection-start-line="12" selection-end-line="200" selection-end-column="7" />
+        <state relative-caret-position="112">
+          <caret line="175" column="23" lean-forward="true" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
         </state>
       </provider>
     </entry>
