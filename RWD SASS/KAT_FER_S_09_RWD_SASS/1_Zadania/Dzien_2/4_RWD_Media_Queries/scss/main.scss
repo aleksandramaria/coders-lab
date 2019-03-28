@@ -1,0 +1,76 @@
+//body {
+//  @media screen and (max-width: 768px) {
+//    background: yellow;
+//  }
+//
+//  @media screen and (min-width: 769px) {
+//    background: blue;
+//  }
+//}
+
+@mixin placeholder() {
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    @content;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    @content;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    @content;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    @content;
+  }
+  &::placeholder {
+    @content;
+  }
+}
+
+input, textarea {
+  @include placeholder() {
+    color: red;
+    background: #333;
+    font-weight: 700;
+  }
+}
+
+
+//body{
+//  @media screen and (max-width: 400px){
+//    background-color: green;
+//  }
+//  @media screen and (min-width: 400px) and (max-width: 800px){
+//    background-color: purple;
+//  }
+//  @media screen and (min-width: 800px){
+//    background-color: orange;
+//  }
+//}
+
+body {
+  @media screen and (max-width: 500px) {
+    background: green;
+  }
+  @media screen and (min-width: 501px) and (max-width: 799px) {
+    background: purple;
+  }
+  @media screen and (min-width: 800px) {
+    background: orange;
+  }
+}
+
+
+div {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  background-color: lawngreen;
+  margin-left: 10px;
+
+  @media screen and (max-width: 900px) {
+    display: block;
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,38 @@
+// Zadanie 1
+@mixin setTooltip($color, $text) {
+  &:after {
+    content: $text;
+    padding: 15px;
+    display: block;
+    background-color: $color;
+    position: absolute;
+  }
+}
+
+body {
+  background-color: lightseagreen;
+}
+
+ul.list {
+  position: relative;
+  li {
+    position: relative;
+    &:hover {
+      @include setTooltip(red, 'blabla tooltip');
+    }
+  }
+}
+// Zadanie 2
+$font-sizes: (
+        fs1: 100px,
+        fs2: 50px,
+        fs3: 6px
+);
+
+$font-list: map-values($font-sizes);
+
+@for $i from 1 to 4 {
+  h#{$i} {
+    font-size: nth($font-list, $i);
+  }
+}

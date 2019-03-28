@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="animal doggo"></div>
+<div class="animal eyes"></div>
+<div class="animal raccoon"></div>
+<div class="animal turtle"></div>
+<div class="animal goat"></div>
+
+$animals: (
+
+doggo: "https://i.gifer.com/7IdM.gif",
+
+eyes: "https://media.giphy.com/media/j3hgsGSW6zOfe/giphy.gif",
+
+raccoon: "https://i.gifer.com/ZOk3.gif",
+
+turtle: "https://media1.tenor.com/images/4125c7c3f61593433166d2799a3fe656/tenor.gif",
+
+goat: "https://media1.tenor.com/images/0b0fdeb0a6ec724fd7cfdc7ee8e40b78/tenor.gif"
+
+);
+
+
+wersja niehardcorowa bez gifow
+
+$list: map-keys($animals);
+
+@each $animal in $list {
+.#{$animal} {
+background: url(map-get($animals, $animal));
+}
+}
+
+.animal {
+height: 100vh;
+}
+
+</body>
+</html>

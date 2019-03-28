@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img, video, canvas {
+  max-width: 100%;
+}
+//.bg {
+//  background-image: url('https://raw.githubusercontent.com/CodersLab/KAT_FER_S_09_RWD_SASS/master/1_Zadania/Dzien_3/10_RWD_Elastyczne_media/images/rabbit.png?token=AHJI_iVmJSFxmsbErDRbRVAOVvLMK0pkks5cbqxywA%3D%3D');
+//  height: 100vh;
+//  background-size: contain;
+//  background-repeat: no-repeat;
+//}
+//.images {
+//  display: flex;
+//  flex-direction: column;
+//  @media (min-width: 750px) {
+//    flex-direction: row;
+//    align-items: flex-start;
+//    img, .bg {
+//      width: 50%;
+//    }
+//  }
+//}
+
+.one-image {
+  //height: 200px;  // nie ustawiam heightu ale daje font-size na 0.
+  width: 200px;
+  border: 1px solid red;
+  font-size: 0;
+}
+
+//img {
+//  height: 100%;  //jezeli dam wysokosc to wtedy img height na 100%.
+//}
+
+.one-image-bg {
+  background-image: url("../images/rabbit.png");
+  background-size: 50%;
+  //background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+  //background-attachment: fixed;
+}

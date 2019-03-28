@@ -1,0 +1,59 @@
+$line-height: normal;
+$font-size: 16px;
+$color-primary: lightgreen;
+$colors: (salmon, lightblue, lightgreen, navy);
+
+body {
+  line-height: $line-height;
+  font-size: $font-size;
+}
+
+@for $i from 1 through 4 {
+  h#{$i} {
+    font-size: (5 - $i) * $font-size;
+    //color: darken($color-primary, ($i - 1) * 20%);
+    color: nth($colors, $i);
+  }
+}
+
+@mixin drawItem($shape, $color) {
+  @if $shape == circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: $color;
+  }
+  @else if $shape == rectangle {
+    width: 200px;
+    height: 200px;
+    background-color: $color;
+  }
+}
+
+.draw-container {
+  @include drawItem(rectangle, pink);
+}
+
+$evenColor: 1px solid orange;
+$unevenColor: 1px solid blue;
+$width: 100px;
+$height: 100px;
+
+@for $i from 1 through 10 {
+  .block_#{$i} {
+    margin: 20px;
+    padding: 20px;
+    @if($i % 2 == 0) {
+      border: $evenColor;
+      font-size: 16px;
+      width: $width;
+      height: $height;
+    }
+    @else {
+      border: $unevenColor;
+      font-size: 24px;
+      width: $width;
+      height: $height;
+    }
+  }
+}

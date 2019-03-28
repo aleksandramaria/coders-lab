@@ -1,0 +1,30 @@
+$primary-color: #333;
+$second-color: #222;
+$font-stack: Helvetica, sans-serif;
+$main-padding: 20px 0 20px 0;
+
+body {
+  font: 100% $font-stack;
+}
+.main-width {
+  background-color: blue;
+  color: lightpink;
+}
+
+.menu {
+  color: $second-color;
+}
+
+h2 {
+  color: $second-color;
+}
+
+section {
+  padding: $main-padding;
+}
+
+
+
+//zadanie 2
+
+/*zadanie 2*/

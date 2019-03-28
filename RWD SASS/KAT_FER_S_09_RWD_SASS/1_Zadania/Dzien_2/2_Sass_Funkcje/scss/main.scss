@@ -1,0 +1,46 @@
+$color: lighten(red, 40%);
+
+body {
+  background-color: $color;
+}
+
+$number: 10;
+$fontSize: percentage($number);
+
+p {
+  font-size: $fontSize;
+}
+//mix(#f00, #00f) => #7f007f
+//mix(#f00, #00f, 25%) => #3f00bf
+//mix(rgba(255, 0, 0, 0.5), #00f) => rgba(63, 0, 191, 0.75)
+
+$color_1: red;
+$color_2: blue;
+
+//$newColor: red + blue;
+
+//
+
+$number1: 5;
+$number2: 2;
+
+@function add($num1, $num2) {
+  @return $num1 + $num2;
+}
+//
+//body {
+//  font-size: add(#{$number1}, #{$number2})px;
+//}
+
+
+@function add($number1, $number2) {
+  @return $number1 + $number2;
+}
+
+body {
+  font-size: add(10px, 12px);
+}
+
+p {
+  font-size: #{add(10, 12)}px;
+}

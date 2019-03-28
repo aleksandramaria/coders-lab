@@ -1,0 +1,87 @@
+$colors: (
+        body: red,
+        header: blue,
+        section: lime,
+);
+
+$widths: (
+        body: 1000px,
+        header: 800px,
+        section: 600px,
+);
+
+body {
+  background: map-get($colors, body);
+  width: map-get($widths, body);
+}
+
+header {
+  background: map-get($colors, header);
+  width: map-get($widths, header);
+}
+
+section.main-width {
+  background: map-get($colors, section);
+  width: map-get($widths, section);
+}
+$colors: (
+        header: #b06,
+        text: #334,
+        footer: #666777
+);
+
+.header {
+  background-color: map-get($colors, header); }
+
+$colors: (
+        background: pink,
+        textColor: coral,
+        footerColor: green,
+        footerBackground: lime,
+        sectionBackground: lightgray,
+);
+
+body {
+  background-color: map-get($colors, background);
+  color: map-get($colors, textColor);
+}
+
+footer {
+  color: map-get($colors, footerColor);
+  background-color: map-get($colors, footerBackground);
+}
+
+section {
+  background: map-get($colors, sectionBackground);
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: darkred;
+  }
+}
+
+
+$widths-map: (
+        min-width: 200px,
+        max-width: 1000px
+);
+
+$widths-list: map-values($widths-map);
+
+.menu  {
+  width: nth($widths-list, 1);
+  background-color: #2b81af;
+}
+
+//Examples:
+//
+//map-values(("foo": 1, "bar": 2)) => 1, 2
+//map-values(("foo": 1, "bar": 2, "baz": 1)) => 1, 2, 1
+//Parameters:
+//
+//$map (Map)
+//Returns:
+//
+//(List) — the list of values, comma-separated

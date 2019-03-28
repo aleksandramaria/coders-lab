@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.flex-container-column {
+  margin: 0 auto;
+  display: flex;
+  //height: 100vh;
+  height: 500px;
+
+  flex-direction: column;
+  padding: 20px;
+  width: 800px;
+  justify-content: center;
+  align-content: center;
+
+  header {
+    background: #da70d5;
+    height: 50px;
+  }
+
+  main {
+    background: #ffecce;
+    overflow-y: auto;
+    padding: 20px
+  }
+
+  footer {
+    background: #ff7f50;
+    height: 50px;
+  }
+}
+
+//moja wersja
+
+//$initial-height: 50px;
+//
+//.flex-container-column {
+//  display: flex;
+//  height: 100vh;
+//  overflow-x: scroll;
+//  align-items: flex-end;
+//
+//  .odd {
+//    background: red;
+//    width: 40px;
+//    height: $initial-height;
+//    margin-right: 2px;
+//    flex-shrink: 0;
+//  }
+//
+//  .even {
+//    background: green;
+//    width: 40px;
+//    height: $initial-height;
+//    margin-right: 2px;
+//    flex-shrink: 0;
+//  }
+//}
+//
+//@for $i from 1 through 50 {
+//  .index-#{$i} {
+//    &.odd {
+//      height: ($initial-height - 10px) + ($i * 10px) + 0;
+//    }
+//    &.even {
+//      height: ($initial-height - 10px) + ($i * 10px) + 10;
+//    }
+//  }
+//}
+
+
+//wersja Kuby
+//
+//div {
+//  width: 25px;
+//  display: inline-block;
+//  overflow-x: auto;
+//  height: 100vh;
+//}
+//
+//.odd {
+//  background: red;
+//  flex-shrink: 0;
+//}
+//.even {
+//  background: green;
+//  flex-shrink: 0;
+//}
+//@for $i from 1 through 50 {
+//  .index-#{$i} {
+//    &.odd {
+//      height: 40px + ($i * 10px) + 0;
+//    }
+//    &.even {
+//      height: 40px + ($i * 10px) + 10;
+//    }
+//  }
+//}
+
+//proba instalacji shrinka
+
+//.flex-container-columns {
+//  width: 25px;
+//  flex-shrink: 0;
+//  display: flex;
+//  align-items: flex-end;
+//  overflow: auto;
+//  height: 100vh;
+//}
+//.odd {
+//  background: red;
+//}
+//.even {
+//  background: green;
+//}
+//@for $i from 1 through 50 {
+//  .index-#{$i} {
+//    &.odd {
+//      height: 40px + ($i * 10px) + 0;
+//    }
+//    &.even {
+//      height: 40px + ($i * 10px) + 10;
+//    }
+//  }
+//}
+
+
+//zadanie mapa w mapie GIFy i kolory
+
+//$animals: (
+//        doggo: (
+//                color: green,
+//                gif: "https://i.gifer.com/7IdM.gif"
+//        ),
+//        eyes: (
+//                color: blue,
+//                gif: "https://media.giphy.com/media/j3hgsGSW6zOfe/giphy.gif"
+//        ),
+//        raccoon: (
+//                color: yellow,
+//                gif: "https://i.gifer.com/ZOk3.gif"
+//        ),
+//        turtle: (
+//                color: gray,
+//                gif: "https://media1.tenor.com/images/4125c7c3f61593433166d2799a3fe656/tenor.gif"
+//        ),
+//        goat: (
+//                color: orange,
+//                gif: "https://media1.tenor.com/images/0b0fdeb0a6ec724fd7cfdc7ee8e40b78/tenor.gif"
+//        )
+//);
+
+$animals: (
+
+        doggo: "https://i.gifer.com/7IdM.gif",
+
+        eyes: "https://media.giphy.com/media/j3hgsGSW6zOfe/giphy.gif",
+
+        raccoon: "https://i.gifer.com/ZOk3.gif",
+
+        turtle: "https://media1.tenor.com/images/4125c7c3f61593433166d2799a3fe656/tenor.gif",
+
+        goat: "https://media1.tenor.com/images/0b0fdeb0a6ec724fd7cfdc7ee8e40b78/tenor.gif"
+
+);
+
+
+wersja niehardcorowa bez gifow
+
+$list: map-keys($animals);
+
+@each $animal in $list {
+  .#{$animal} {
+    background: url(map-get($animals, $animal));
+  }
+}
+
+.animal {
+  height: 100vh;
+}
+
+//$list: map-keys($animals); // [doggo, eyes, raccoon, turtle, goat]
+//@each $animal in $list {
+//  $settings: map-get($animals, $animal);
+//  .#{$animal} {
+//    background-color: map-get($settings, 'color');
+//    &:hover{
+//      background-image: url(map-get($settings, 'gif'));
+//    }
+//  }
+//}
+//.animal {
+//  height: 100vh;
+//}
+
+// zadanie dzien/noc
+
+//@mixin pad($top, $right, $bottom, $left) {
+//  padding: $top $right $bottom $left;
+//}
+//
+//@mixin dayOrNight($yesNo) {
+//  @if ($yesNo == true) {
+//    background-color: navy;
+//    color: yellow;
+//  } @else {
+//    background-color: lightskyblue;
+//    color: black;
+//  }
+//}
+//
+//
+//div {
+//  font-size: 100px;
+//}
+//.one {
+//  @include pad(100px, 0, 0, 0);
+//  @include dayOrNight(true);
+//}
+//.two {
+//  @include pad(0, 100px, 0, 0);
+//  @include dayOrNight(false);
+//}
+//.tree {
+//  @include pad(0, 0, 100px, 0);
+//  @include dayOrNight(true);
+//}
+//.four {
+//  @include pad(0, 0, 0, 100px);
+//  @include dayOrNight(false);
+//}
+
+
+// ZADANIE ZE SLAJDAMI
+img, video, canvas {
+  max-width: 100%;
+}
+
+.flex-container {
+  height: 300px;
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+div {
+  flex-shrink: 0;
+}
+
+img {
+  width: 280px;
+  height: 220px;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+
+
+
+
+
+// GRID GRID GRID
+
+
+%clearfix{
+  &:before, &:after {
+    content:'';
+    display: table;
+    clear: both;
+  }
+}
+
+$gutter: 15px;
+
+
+@mixin grid($cols) {
+  $base: 100% / $cols;
+  @for $i from 1 through $cols {
+    .col-#{$i}{
+      width: $base * $i;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: $gutter;
+  padding-right: $gutter;
+
+  .row {
+    @extend %clearfix;
+    //border: 1px solid green;
+    //margin-left: -$gutter;
+    //margin-right: -$gutter;
+
+    [class*='col-']{
+      //border: 1px solid red;
+      width: 100%;
+      float: left;
+      //padding-left: $gutter;
+      //padding-right: $gutter;
+      min-height: 1px;
+    }
+
+    @media screen and (min-width: 640px) {
+      @include grid(12);
+    }
+  }
+}
+
+
+.top_grid {
+  background: purple;
+  height: 15vh;
+  margin-bottom: 25px;
+}
+
+.left_box {
+  background: #1691C3;
+  height: 5vh;
+  margin-bottom: 3vh;
+}
+
+.left_box-last {
+  background: white;
+  height: 5vh;
+  margin-bottom: 3vh;
+}
+
+.middle_grid {
+  background: yellow;
+  height: 40vh;
+}
+
+.right_box {
+  background: deepskyblue;
+  height: 40vh;
+}
+
+.bottom_grid {
+  background: #1691C3;
+  height: 15vh;
+  margin-top: 25px;
+}

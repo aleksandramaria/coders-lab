@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: $color-background;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}

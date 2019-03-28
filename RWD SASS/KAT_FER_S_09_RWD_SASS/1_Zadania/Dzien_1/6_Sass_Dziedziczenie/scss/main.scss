@@ -1,0 +1,67 @@
+%clearfix {
+  &:before {
+    display: block;
+    clear: both;
+    content: '';
+  }
+
+  &:after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+}
+
+.test-mixin {
+  @extend %clearfix;
+
+  .left_box, .right_box {
+    height: 100px;
+    width: 100px;
+  }
+
+  .left_box {
+    float: left;
+    background: red;
+  }
+
+  .right_box {
+    float: right;
+    background: green;
+  }
+}
+
+
+
+#admin .nav a {
+  color: yellowgreen;
+}
+%link-holder{
+  font-size: 20px;
+  color: orangered;
+}
+
+
+
+#demo .body .link {
+  @extend %link-holder;
+}
+
+%message {
+  border: 1px solid lightgray;
+  font-size: 20px;
+  width: 420px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.success {
+  @extend %message;
+  background-color: lightyellow; }
+.error {
+  @extend %message;
+  background-color: pink;
+}
+.info {
+  @extend %message;
+  background-color: lightblue;
+}
