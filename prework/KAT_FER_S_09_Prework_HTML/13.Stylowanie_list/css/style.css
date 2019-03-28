@@ -1,0 +1,12 @@
+.squareList {
+    list-style: square;
+}
+.menuList {
+    color: #116493;
+    list-style: none;
+}
+.menuList li {
+    display: inline-block;
+    width: 100px;
+    float: left;
+}

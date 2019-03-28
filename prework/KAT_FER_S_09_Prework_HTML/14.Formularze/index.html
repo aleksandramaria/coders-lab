@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+	<form class="contactForm">
+		<label>Your Name:
+			<br><input type="text" id="name" placeholder="Your name">
+		</label><br>
+		<label>Your Email Address:
+			<br><input type="email" id="email" placeholder="Your email">
+		</label><br>
+		<label>Your Message:
+			<br><textarea cols="50" rows="10" name="message" placeholder="Please describe your question or comment"></textarea>
+		</label>
+		<label>
+			<br><input type="submit" name="submitButton" value="Send">
+		</label>
+	</form>
+	<h1>Car rental</h1>
+	<form class="rentCarForm">
+		<fieldset>
+			<legend>Choose car class</legend>
+			<input type="radio" name="carClass" value="mini"> mini<br>
+			<input type="radio" name="carClass" value="economy"> economy<br>
+			<input type="radio" name="carClass" value="compact"> compact<br>
+			<input type="radio" name="carClass" value="SUV"> SUV<br>
+			<input type="radio" name="carClass" value="male"> VAN<br>
+		</fieldset>
+		<fieldset>
+			<legend>Choose optional equipment</legend>
+			<input type="checkbox" name="extras" value="childSeat"> child seat<br>
+			<input type="checkbox" name="extras" value="gps" checked> GPS<br>
+			<input type="checkbox" name="extras" value="dvdPlayer"> DVD player<br>
+ 		</fieldset>
+	</form>
+	<form>
+		<label>Rental start date
+			<input type="date" name="rentDate">
+		</label>
+	</form>
+	<form>
+		<label>Number of days
+			<input type="number" name="days">
+		</label>
+	</form>
+	<form>
+		<label>Your password
+			<input type="password" name="password">
+		</label>
+	</form>
+	<form>
+		<input type="submit" name="order" value="Order now!">
+	</form>
+</body>
+</html>

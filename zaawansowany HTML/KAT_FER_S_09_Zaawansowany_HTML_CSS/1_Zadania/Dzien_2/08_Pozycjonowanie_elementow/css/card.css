@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Tangerine', cursive;
+}
+
+.card {
+    background: #FEF5E5;
+    padding: 20px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.card__border {
+    border: 1px solid gold;
+    padding: 3px;
+}
+
+.card__heading,
+.card__description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card__heading {
+    font-size: 48px;
+}
+
+.card__description {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.card > .card__border {
+    position: relative;
+}
+
+.card > .card__border:before {
+    width: 30px;
+    height: 30px;
+    background: gold;
+    content: '';
+    display: block;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+
+.card > .card__border:after {
+    width: 30px;
+    height: 30px;
+    background: gold;
+    content: '';
+    display: block;
+    border-radius: 50%;
+    
+    position: absolute;
+    left: -15px;
+    bottom: -15px;
+}
+
+.card__border > .card__border:after {
+    width: 30px;
+    height: 30px;
+    background: gold;
+    content: '';
+    display: block;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+}
+
+
+.card__border > .card__border:before {
+    width: 30px;
+    height: 30px;
+    background: gold;
+    content: '';
+    display: block;
+    border-radius: 50%;
+
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}

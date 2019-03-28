@@ -1,0 +1,19 @@
+div {
+	font-size: 24px;
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to right, rgba(149,80,50,1) 20%, rgba(241,111,92,1) 30%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 51%, rgba(231,56,39,1) 80%);
+}
+
+.box {
+	font-size: 1em;
+	width: 50%;
+	height: 50%;
+	background: silver;
+}
+
+/* em zaleza od rodzica
+remy zaleza od htmla (root) - czyli glownego elementu 
+px to jednostka absolutna i nie zmienia sie w zaleznosci od innych elementow*/
+
+/* wielkosc elementu dziecka jest zalezna od wielkosci rodzica */

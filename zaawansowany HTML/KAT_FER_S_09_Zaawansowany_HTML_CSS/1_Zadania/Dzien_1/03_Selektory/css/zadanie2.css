@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+	background-color: #003343;
+}
+
+.wrapper li {
+	list-style: none;
+    display: inline-block;
+    margin: 20px;
+    color: white;
+}
+
+.home, .about, .pt, .contact {
+    width: 150px;
+    height: 150px;
+    line-height: 250px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.home { 
+	background-color: #3D8EB9;
+}
+.about {
+	background-color: #71BA51;
+}
+.pt { 
+	background-color: #FEC606;
+}
+.contact {
+	background-color: #E75926;
+}
+
+.right {
+    float: right;
+    padding: 70px;
+}

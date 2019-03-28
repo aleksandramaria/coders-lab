@@ -1,0 +1,44 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Joe Black",
+      "description": "Śmierć chce poznać życie"
+    },
+    {
+      "id": 2,
+      "title": "KungFu Panda",
+      "description": "Opowieść o Po"
+    },
+    {
+      "id": 3,
+      "title": "Hobbit- Niezwykła podróż",
+      "description": "Bilbo Bagins dołącza do kompanii krasnoludów"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "title": "titanic",
+      "description": "bla",
+      "id": 9
+    },
+    {
+      "title": "botoks",
+      "description": "polski film",
+      "id": 10
+    }
+  ]
+}

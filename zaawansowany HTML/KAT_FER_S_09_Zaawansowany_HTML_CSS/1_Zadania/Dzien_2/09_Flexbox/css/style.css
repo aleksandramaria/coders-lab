@@ -1,0 +1,27 @@
+.navigation__bar {
+	display: flex;
+	background-color: red;
+	justify-content: space-between;
+	align-items: center;
+	color: #202020;
+	opacity: 0.75;
+	/*padding: 20px;*/
+	margin: 0, auto;
+
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.navigation__bar__menu {
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+}
+
+a {
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+}

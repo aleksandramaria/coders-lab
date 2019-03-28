@@ -1,0 +1,21 @@
+.first-paragraph {
+	background-color: hsl(0, 100%, 25%);
+}
+.second-paragraph {
+	background-color:rgb(255, 165, 0);
+}
+.third-paragraph {
+	background-color: #00FF00;
+}
+.container {
+	background-color: yellow;
+	width: 200px;
+}
+.first {
+	background-color: pink;
+	width: 50%;
+}
+.second {
+	background-color: orange;
+	width: 10em;
+}

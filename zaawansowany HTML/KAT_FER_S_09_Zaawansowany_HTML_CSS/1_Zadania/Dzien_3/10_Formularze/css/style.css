@@ -1,0 +1,26 @@
+input[type="submit"] { 
+	background-color: red; border: none;
+	color: white; border-radius: 50%;
+}
+
+input[type="email"] {
+	color: green;
+}
+
+input[type="password"] {
+	color: yellow;
+}
+
+input[type="name"] {
+	color: blue;
+}
+
+input[type="text"] {
+	color: orange;
+}
+
+.form {
+	background: lightgrey;
+	
+}
+

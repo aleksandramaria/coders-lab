@@ -1,0 +1,130 @@
+/** {
+	box-sizing: border-box;
+}
+
+body {
+	font: "Arial", sans-serif;
+}
+
+header {
+	background-image: url(../images/night-sky.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 15px; 
+}
+
+h1 {
+	color: white;
+	margin-left: 170px;
+}
+
+li {
+	float: left;
+	padding: 5px;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.col-1 {
+	float: left;
+	width: 33%;
+}
+
+.col-1:last-child {
+	width: 34%;
+}
+
+.col-2 {
+	color: white;
+	float: left;
+	width: 50%;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.section {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.light_blue {
+	background: lightblue;
+}
+
+.blue {
+	background: blue;
+}
+
+.navy {
+	background: navy;
+	color: white;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.email {
+	margin-left: 170px;
+}*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: Arial, Helvetica, sans-serif;
+}
+
+#mainBackground {
+	background-image: url(../images/night-sky.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 15px; 
+}
+
+h1 {
+	color: white;
+	margin-left: 170px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+li {
+	flex-direction: row;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+.light_blue {
+	background: lightblue;
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.blue {
+	background: blue;
+	color: white;
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.navy {
+	background: navy;
+	color: white;
+}
+
+.email {
+	margin-left: 170px;

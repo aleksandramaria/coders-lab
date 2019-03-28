@@ -1,0 +1,120 @@
+/*
+Elementy o klasach layer-2, layer_3 oraz layer-4 są
+ wyśrodkowane względem swojego rodzica,
+Przy użyciu pseudoelementów before i after
+ stwórz i dodaj do elementów o klasach layer-2, 
+ layer_3 oraz layer-4 kwadraty o bokach 100px i odpowiednich kolorach.
+  Ustaw je w odpowiednich miejsach (Podpowiedź: 
+  	przesunięcie zawsze będzie wynosiło 50px, oczywiście w odpowiednim kierunku.).*/
+
+* {
+	box-sizing: border-box;
+}
+
+.layer-1 {
+	width: 800px;
+	height: 800px;
+	background-color: #FF1106;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.layer-2 {
+	width: 600px;
+	height: 600px;
+	background-color: #FF5200;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.layer-3 {
+	width: 400px;
+	height: 400px;
+	background-color: #FF8B05;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.layer-4 {
+	width: 200px;
+	height: 200px;
+	background-color: #FFCC0D;
+	position: relative;
+}
+
+.layer-2:before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #FF5200;
+
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+
+.layer-2:after {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #FF5200;
+
+	position: absolute;
+	bottom: -50px;
+	right: -50px;
+}
+
+.layer-3:before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #FF8B05;
+
+	position: absolute;
+	top: -50px;
+	right: -50px;
+}
+
+.layer-3:after {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #FF8B05;
+
+	position: absolute;
+	bottom: -50px;
+	left: -50px;
+}
+
+.layer-4:before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #FFCC0D;
+
+	position: absolute;
+	top: -50px;
+	left: -50px;
+}
+
+.layer-4:after {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #FFCC0D;
+
+	position: absolute;
+	bottom: -50px;
+	right: -50px;
+}

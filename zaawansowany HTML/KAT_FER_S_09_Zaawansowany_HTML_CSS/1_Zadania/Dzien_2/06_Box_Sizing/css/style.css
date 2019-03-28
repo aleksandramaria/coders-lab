@@ -1,0 +1,12 @@
+.container {
+    width: 400px;
+    border: 1px solid blue;
+    overflow: scroll;
+}
+
+.one {
+    width: 450px;
+    border: 1px solid red;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
