@@ -1,0 +1,59 @@
+body {
+    margin:0;
+}
+
+.zombie {
+    width: 200px;
+    height: 312px;
+    background: url('http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png');
+    animation: play 0.8s steps(10) infinite;
+}
+
+.board {
+    height:100vh;
+    min-height: 800px;
+    position: relative;
+    overflow: hidden;
+    background: rgb(0,0,0);
+    background-image: url(../images/board-bg.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+@keyframes play {
+    /*0% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*10% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*20% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*30% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*40% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*50% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*60% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*70% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*80% {*/
+        /*background-position: 1900px;*/
+    /*}*/
+    /*90% {*/
+        /*background-position: -1800px;*/
+    /*}*/
+    100% {
+        background-position: -2000px;
+    }
+}
+
+/*Podpowiedź: wymiary jednej klatki animacji 200x312 pixeli, ilość klatek: 10.*/
